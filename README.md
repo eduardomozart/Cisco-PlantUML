@@ -1,6 +1,6 @@
 # CiscoCVD-PlantUML
 
-This repository uses [Cisco Validated Design 3D Stencils](https://www.petenetlive.com/KB/Article/0001041) ([Cisco_CVD_icons_png.zip](https://www.visiocafe.com/hpe.htm)) from Cisco.
+This repository uses [Cisco Validated Design 3D Stencils](https://www.petenetlive.com/KB/Article/0001041) (Cisco_CVD_icons_png.zip) from Cisco.
 
 The following projects were used to generate the images available in this repository:
 
