@@ -1,0 +1,29 @@
+@startuml
+!define CiscoCVDPuml https://raw.githubusercontent.com/eduardomozart/Cisco-PlantUML/main
+!include CiscoCVDPuml/puml/Layer_2_Switch.puml
+!include CiscoCVDPuml/puml/Layer_3_Switch.puml
+
+<style>
+component {
+  LineColor transparent
+  BackgroundColor transparent
+}
+</style>
+
+component "<color:#121c22><$Layer_3_Switch>" as Root {
+}
+
+component "<color:#121c22><$Layer_2_Switch>" as S1 {
+}
+
+component "<color:#121c22><$Layer_2_Switch>" as S2 {
+}
+
+Root -[hidden]- S1
+Root -- S1
+Root -[hidden]- S1
+Root -- S2
+Root -[#red]-x S2
+Root -[#transparent]-x S2 : Porta bloqueada
+S1 -[#red,norank]-x S2 : Porta bloqueada
+@enduml
