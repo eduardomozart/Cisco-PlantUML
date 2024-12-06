@@ -15,32 +15,12 @@ The scripts used to generate the images available in this repository are availab
 
 ### Switches
 
-![Basic usage - VSF](https://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Feduardomozart%2FCiscoCVD-PlantUML%2Fmain%2FSamples%2FSwitches.puml)
+![Basic usage - Switches](https://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Feduardomozart%2FCiscoCVD-PlantUML%2Fmain%2FSamples%2FSwitches.puml)
 
-```csharp
-@startuml
-skinparam nodesep 150
-skinparam defaultTextAlignment center
-skinparam sequenceArrowThickness 1.5
-skinparam rectangleRoundCorner 0
+https://github.com/eduardomozart/CiscoCVD-PlantUML/blob/d0feaa8102bfd08a24e18e3410f0942353e506d5/Samples/Switches.puml#L1-L25
 
-<style>
-rectangle {
-  LineColor transparent
-  BackgroundColor transparent
-  MinimumWidth 100
-}
-</style>
+### STP
 
-!define CiscoCVDPuml https://raw.githubusercontent.com/eduardomozart/Cisco-PlantUML/main
-!include CiscoCVDPuml/puml/Layer_2_Switch.puml
-!include CiscoCVDPuml/puml/Layer_3_Switch.puml
+![Basic usage - STP](https://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Feduardomozart%2FCiscoCVD-PlantUML%2Fmain%2FSamples%2FSTP.puml)
 
-rectangle "<color:#121c22><$Layer_3_Switch>\n<b>Core" as SW1
-rectangle "<color:#121c22><$Layer_2_Switch>\n<b>SW2" as SW2
-rectangle "<color:#121c22><$Layer_2_Switch>\n<b>SW3" as SW3
-
-SW1 --> SW2
-SW1 --> SW3
-@enduml
-```
+https://github.com/eduardomozart/CiscoCVD-PlantUML/blob/d0feaa8102bfd08a24e18e3410f0942353e506d5/Samples/STP.puml#L1-L29
