@@ -23,4 +23,4 @@ https://github.com/eduardomozart/CiscoCVD-PlantUML/blob/d0feaa8102bfd08a24e18e34
 
 ![Basic usage - STP](https://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2Feduardomozart%2FCiscoCVD-PlantUML%2Fmain%2FSamples%2FSTP.puml)
 
-https://github.com/eduardomozart/CiscoCVD-PlantUML/blob/d0feaa8102bfd08a24e18e3410f0942353e506d5/Samples/STP.puml#L1-L29
+https://github.com/eduardomozart/CiscoCVD-PlantUML/blob/dd0200baaa6df6444fdb53050efa111a94bc69cd/Samples/STP.puml#L1-L29
