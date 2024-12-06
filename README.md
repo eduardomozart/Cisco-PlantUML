@@ -37,8 +37,8 @@ rectangle {
 !include CiscoCVDPuml/puml/Layer_3_Switch.puml
 
 rectangle "<color:#121c22><$Layer_3_Switch>\n<b>Core" as SW1
-rectangle "<color:#121c22><$Layer_2_Switch>" as SW2
-rectangle "<color:#121c22><$Layer_2_Switch>" as SW3
+rectangle "<color:#121c22><$Layer_2_Switch>\n<b>SW2" as SW2
+rectangle "<color:#121c22><$Layer_2_Switch>\n<b>SW3" as SW3
 
 SW1 --> SW2
 SW1 --> SW3
