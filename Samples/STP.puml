@@ -10,7 +10,7 @@ component {
 }
 </style>
 
-component "<color:#121c22><$Layer_3_Switch>" as Root {
+component "Switch Root (Raiz)\n\n<color:#121c22><$Layer_3_Switch>" as Root {
 }
 
 component "<color:#121c22><$Layer_2_Switch>" as S1 {
